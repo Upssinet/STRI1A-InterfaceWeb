@@ -4,6 +4,64 @@
 */
 @import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
 
+/* SUMMARY */
+/* 
+ * 1) Header
+ * 2/ Navbar
+ *
+ *
+ */
+
+ body {
+    color: #3C3C3C;
+    font-family: Gudea,Arial,sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    background: #ece5d7;
+    widows: 2;
+    orphans: 2;
+}
+.container {
+    position: relative;
+    width: 950px;
+    margin: auto;
+}
+
+/* HEADER */
+
+header #top-head {
+    height: 30px;
+    color: white;
+    background: #ecc99b;
+    border-bottom: 2px solid #d8b384;
+    box-shadow: 0px 1px 5px rgba(0,0,0,.75);
+}
+
+
+header #top-head .logo img {
+    padding: 0.8em;
+    display: block;
+    border-radius: 0 0 7px 7px;
+    border: 1px solid white;
+    border-top: none;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 1px 1px 1px #cbc6ba;
+}
+
+/* NAVBAR */
+nav {
+    background-image: url(/assets/nav-bg.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    padding: 30px 0px 35px;
+    display: block;
+}
+nav .links {
+    padding-left: 230px;
+}
 nav a {
     color: #58595b;
     text-shadow: 1px 1px 1px #dad5c8;
@@ -18,3 +76,49 @@ nav a {
     -webkit-transition: all .2s;
     transition: all .2s;
 }
+nav a:hover {
+    color: #3a9bbf;
+    text-decoration: none;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+}
+nav a.active {
+    color: #d37e00;
+    text-shadow: 1px 1px 1px white;
+}
+
+/* SECTION MAIN */
+#main {
+    background: #f9f7f3;
+    border-radius: 5px;
+    box-shadow: 0 0 1px #a7a9ac;
+    margin-bottom: 20px;
+    padding: 2em;
+}
+
+
+/* TITLE */
+h1, h2, h3, h4, h5 {
+    color: #58595b;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 14px;
+    font-family: Bitter;
+}
+
+h2, h3, h4 {
+    padding-top: 14px;
+}
+
+h1 {
+    line-height: 40px;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 20px;
+    border-bottom: 1px solid #e2e3e4;
+}
+
+
+

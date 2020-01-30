@@ -1,22 +1,98 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <title>WebPlatform Docs by Arthur & Antonin</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
-  </head>
-  <body>
-      <header>
+</head>
 
-      </header>
-      <nav>
-        <a href="https://webplatform.github.io/">The Docs</a>
-        <a href="https://webplatform.github.io/docs/Community">Connect</a>
-        <a href="https://webplatform.github.io/docs/WPD/Contributors_Guide/">Contribute</a>
-        <a href="https://webplatform.github.io/blog/">Blog</a>
-      </nav>
-      <section>
-          
-      </section>
-  </body>
+<body>
+    <header>
+        <!-- Barre noir en haut -->
+        <section id="top-head">
+            <div class="container">
+                <div class="logo">
+                    <img src="./img/logo.svg" alt="Logo de WebPlatform">
+                </div>
+            </div>
+        </section>
+
+        <!-- Barre de navigation -->
+        <nav>
+            <div class="container links">
+                <a href="https://webplatform.github.io/" class="active">The Docs</a>
+                <a href="https://webplatform.github.io/docs/Community">Connect</a>
+                <a href="https://webplatform.github.io/docs/WPD/Contributors_Guide/">Contribute</a>
+                <a href="https://webplatform.github.io/blog/">Blog</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="main" class="container">
+        <h1>HTML lists</h1>
+
+        <!-- Summary -->
+        <h2 id="Summary">Summary</h2>
+        <p>
+            This article introduces the three list types in HTML and explores their basic features.
+        </p>
+
+        <!-- Introduction -->
+        <h2 id="Introduction">Introduction</h2>
+        <p>
+            Lists are used to group together related pieces of information so they are clearly associated with each
+            other and easy to read. In modern web development, lists are workhorse elements, frequently used for
+            navigation as well as general content.
+        </p>
+        <p>
+            Lists are good from a structural point of view as they help create a well-structured, more accessible,
+            easy-to-maintain document. They are also useful because they provide specialized elements to which you
+            can attach CSS styles. Finally, semantically correct lists help visitors read your web site, and they
+            simplify maintenance when your pages need to be updated.
+        </p>
+
+        <!-- The tree list Types-->
+        <h2 id="The-three-list-types">The three list types</h2>
+        <p>
+            There are three list types in HTML:
+        </p>
+        <ul>
+            <li><strong>unordered list</strong> — used to group a set of related items in no particular order</li>
+            <li><strong>ordered list</strong> — used to group a set of related items in a specific order</li>
+            <li><strong>description list</strong> — used to display name/value pairs such as terms and definitions</li>
+        </ul>
+        <p>
+            Each list type has a specific purpose and meaning in a web page.
+        </p>
+
+        <!-- Unordered lists -->
+        <h3 id="Unordered-lists">Unordered lists</h3>
+        <p>
+            <em>Unordered</em> (bulleted) lists are used when a set of items can be placed in any order. An example
+            is a shopping list:
+        </p>
+        <ul>
+            <li>milk</li>
+            <li>bread</li>
+            <li>butter</li>
+            <li>coffee beans</li>
+        </ul>
+        <p>
+            Although the items are all part of one list, you could put the items in any order and the list would
+            still make sense:
+        </p>
+        <ul>
+            <li>bread</li>
+            <li>coffee beans</li>
+            <li>milk</li>
+            <li>butter</li>
+        </ul>
+        <p>
+            You can use CSS to change the bullet to one of several default styles, use your own image, or even
+            display the list without bullets — we’ll look at how to do that in the <a href="/docs/guides/Styling_lists_and_links">Styling lists and links</a> article.
+        </p>
+    </section>
+</body>
+
 </html>
