@@ -2,3 +2,19 @@
  * Projet 1 de Dev Web STRI 1A
  * Auteurs : Arthur REITER & Antonin VERDIER
 */
+@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+
+nav a {
+    color: #58595b;
+    text-shadow: 1px 1px 1px #dad5c8;
+    text-transform : uppercase;
+}
+nav a {
+    padding-right: 20px;
+    font-family: Bitter;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
