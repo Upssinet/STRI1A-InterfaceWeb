@@ -40,7 +40,7 @@ header #top-head {
 
 
 header #top-head .logo img {
-    padding: 0.8em;
+    padding: 1.2em;
     display: block;
     border-radius: 0 0 7px 7px;
     border: 1px solid white;
@@ -49,6 +49,12 @@ header #top-head .logo img {
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: 1px 1px 1px #cbc6ba;
+    
+}
+
+
+
+header #top-head img {
 }
 
 /* NAVBAR */
