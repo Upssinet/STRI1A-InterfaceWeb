@@ -4,7 +4,7 @@ L'objectif était de réaliser une copie d'une interface web. Cela nous permetta
 
 ### Interface modèle
 
-![image-20200831165847677](Interface Web.assets/image-20200831165847677.png)
+![image-20200831165847677](README.assets/image-20200831165847677.png)
 
 https://webplatform.github.io/docs/guides/html_lists/
 
@@ -12,7 +12,7 @@ https://webplatform.github.io/docs/guides/html_lists/
 
 ### Interface réalisée
 
-![image-20200831170115628](Interface Web.assets/image-20200831170115628.png)
+![image-20200831170115628](README.assets/image-20200831170115628.png)
 
 
 
